@@ -9,12 +9,19 @@
 </script>
 
 <template>
-    <img class="pic" src="/images/idiocracy.jpeg" alt="jumbotron">
+    <div>
+        <img class="pic" src="/images/idiocracy.jpeg" alt="jumbotron">
+    </div>
+    
 </template>
 
 <style scoped>
-    .pic {
+    div {
         text-align: center;
+        width: 40%;
         margin: auto;
+    }
+    .pic {
+       width: 100%
     }
 </style>
